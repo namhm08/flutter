@@ -1,4 +1,5 @@
 import 'package:bai1_2/features/user/screen/user_profile.dart';
+import 'package:bai1_2/screens/hello_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: screen_user_profile(),
+      home: Hello(),
     );
   }
 }
